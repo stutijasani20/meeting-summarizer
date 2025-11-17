@@ -10,7 +10,7 @@ from watchdog.events import FileSystemEventHandler
 # ==============================
 # CONFIGURATION
 # ==============================
-genai.configure(api_key="AIzaSyDDtC1Pp0FFnAtounIX_avUbqwUz-KIFMg")
+genai.configure(api_key="your_api_key_here")  # Replace with your actual API key
 
 WATCH_FOLDER = "/home/dev/Videos"  
 SUPPORTED_FORMATS = {".mp4", ".mkv", ".avi", ".mov", ".webm"}
